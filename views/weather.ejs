@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Weather app</title>
+  <link rel="stylesheet" href="response.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Concert+One|Fauna+One|Frank+Ruhl+Libre|Indie+Flower|Julius+Sans+One|Rajdhani|Sintony|Tinos&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+     <div class="row">
+      <div id="oneweather">
+        <h3 class="responseHeading2">Temperature in <%= theCity.toUpperCase() %> is</h>
+        <h1 class="responseHeading"><%= todayTemp %>°C</h>
+        <p></p>
+      </div>
+
+      <div class="two">
+
+      </div>
+    </div>
+
+  </div>
+
+
+    <div class="middle">
+
+
+    <form id="form1" action="/" method="post">
+      <button id="cityName" type="button" name="button"><a href="/">Search Again</a></button>
+    </form>
+
+    </div>
+
+  </body>
+
+
+</html>

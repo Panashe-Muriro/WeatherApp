@@ -1,0 +1,86 @@
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: red;
+  }
+}
+
+
+
+body{
+  background-color: #1eb2a6;
+  padding-left: 0px;
+}
+ #cityName{
+   text-align: center;
+   background-color: #d63447;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   width: 25rem;
+   border-style:ridge;
+   border-radius:25px;
+animation-name: rit;
+animation-duration: 3s;
+ }
+ @keyframes rit {
+   from{width: 30px}
+   to{width:25rem}
+ }
+ h1{
+   text-align: center;
+   font-family: Fauna One;
+ }
+#form1{
+  text-align: center;
+}
+.middle{
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.top{
+  height: 200px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#top1{
+  height: 200px;
+  padding-bottom: 50px;
+}
+.label1{
+  font-family: Sintony;
+}
+.go{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  font-family: Sintony bold;
+}
+ .one{
+   margin-left: 50%;
+   background-color: #ffd868;
+   height: 200px;
+   width: 50.5%;
+   padding-bottom: 50px;
+   text-align: left;
+
+ }
+
+ .two{
+   margin-right: 50%;
+   background-color: #d1cebd;
+   height: 300px;
+   animation-name: rot;
+   animation-duration: 2s;
+
+   padding-bottom: 50px
+ }
+ @keyframes rot {
+   0%{width: 100%; }
+
+   100%{width: 50%; }
+ }
+:hover.go{
+  background-color: #ffd868
+}

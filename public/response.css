@@ -1,0 +1,121 @@
+body {
+  background-color: #f6eec7;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.responseHeading {
+  text-align: center;
+  padding-top: 150px;
+  font-family: Sintony;
+  color: white;
+}
+.responseHeading2{
+  margin-left: 40vw;
+  text-align: center;
+  position: absolute;
+  padding-top: 100px;
+  font-family: Sintony;
+}
+
+p {
+  text-align: center;
+  padding-top: 0px;
+  font-family: Sintony;
+  color: white;
+  margin-top: -20px
+}
+
+#cityName {
+  text-align: center;
+  background-color: #f6d186;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 600px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 25px;
+  color: #750000;
+  font-size: 1.5rem;
+  margin-top: 130px;
+}
+
+#form1 {
+  text-align: center;
+}
+
+.middle {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2
+}
+
+.row {
+  height: 200px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#top1 {
+  height: 200px;
+  padding-bottom: 50px;
+}
+
+.label1 {
+  font-family: Sintony;
+}
+
+.go {
+  height: 50px;
+  width: 80px;
+  border-radius: 25px;
+  font-family: Sintony bold;
+  background-color: green;
+  color: white;
+  border-style: solid;
+}
+
+#oneweather {
+  margin-right: 0;
+  background-color: #85a392;
+  height: 300px;
+  padding-bottom: 50px;
+  margin-top: -25px;
+  box-decoration-break: clone;
+  color: #880000;
+  position: relative;
+  z-index: 3;
+}
+
+.two {
+  margin-left: 50%;
+  background-color: #fbc490;
+  height: 253px;
+  width: 50%;
+  padding-bottom: 50px;
+  text-align: left;
+  position: relative;
+  z-index: 2;
+}
+
+:hover.go {
+  background-color: #ffd868
+}
+
+.footer {
+  text-align: center;
+  margin-top: 135px;
+  font-family: Sintony;
+  color: #000;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+.searchAgain{
+  text-align: center;
+}
